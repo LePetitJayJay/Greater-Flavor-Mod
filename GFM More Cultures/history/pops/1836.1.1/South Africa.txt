@@ -802,7 +802,7 @@
     farmers = {
         culture = tswana
         religion = animist
-        size = 36200
+        size = 36800
     }
 }
 #Bechuanaland Region (20000) #see Botswana.txt for balance of region
@@ -835,7 +835,7 @@
     farmers = {
         culture = tswana
         religion = animist
-        size = 4650
+        size = 4050
     }
 
 }
@@ -1571,7 +1571,7 @@
     aristocrats = {
         culture = sotho
         religion = animist
-        size = 400
+        size = 300
     }
 
     clergymen = {
@@ -1595,7 +1595,19 @@
     farmers = {
         culture = sotho
         religion = animist
-        size = 18775
+        size = 18000
+    }
+
+    aristocrats = {
+        culture = griqua
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = griqua
+        religion = animist
+        size = 775
     }
 
     slaves = {
