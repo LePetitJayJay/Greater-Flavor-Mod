@@ -6201,7 +6201,13 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 16375
+        size = 15000
+    }
+
+    farmers = {
+        culture = turkish
+        religion = alawite
+        size = 1375
     }
 	
 	farmers = {
@@ -6318,7 +6324,13 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 27375
+        size = 27000
+    }
+
+    farmers = {
+        culture = turkish
+        religion = alawite
+        size = 375
     }
 	
 	farmers = {
@@ -6929,20 +6941,26 @@
 
     clergymen = {
         culture = mashriqi
-        religion = shiite
+        religion = alawite
         size = 100
     }
 
     artisans = {
         culture = mashriqi
-        religion = shiite
+        religion = alawite
         size = 550
     }
 
     farmers = {
         culture = mashriqi
+        religion = alawite
+        size = 9000
+    }
+
+    farmers = {
+        culture = mashriqi
         religion = shiite
-        size = 9500
+        size = 500
     }
 
 }

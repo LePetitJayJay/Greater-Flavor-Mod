@@ -571,6 +571,12 @@
         size = 1450
     }
 
+    farmers = {
+        culture = mashriqi
+        religion = alawite
+        size = 1000
+    }
+
     clergymen = {
         culture = syriac
         religion = orthodox
@@ -654,20 +660,26 @@
 
     clergymen = {
         culture = mashriqi
-        religion = shiite
+        religion = alawite
         size = 50
     }
 
     artisans = {
         culture = mashriqi
-        religion = shiite
+        religion = alawite
         size = 100
     }
 
     farmers = {
         culture = mashriqi
+        religion = alawite
+        size = 3000
+    }
+
+    farmers = {
+        culture = mashriqi
         religion = shiite
-        size = 4000
+        size = 1000
     }
 
     clergymen = {
@@ -835,26 +847,32 @@
 905 = {
     clergymen = {
         culture = mashriqi
-        religion = shiite
+        religion = alawite
         size = 165
     }
 
     artisans = {
         culture = mashriqi
-        religion = shiite
+        religion = alawite
         size = 1100
     }
 
     soldiers = {
         culture = mashriqi
-        religion = shiite
+        religion = alawite
         size = 275
     }
 
     farmers = {
         culture = mashriqi
+        religion = alawite
+        size = 17000
+    }
+
+    farmers = {
+        culture = mashriqi
         religion = shiite
-        size = 18070
+        size = 1070
     }
 
     farmers = {

@@ -1223,6 +1223,9 @@ political_decisions = {
 				add_accepted_culture = maracucho
 			}
 			########Fantasy Formables########
+			ALA = {
+				religion = alawite
+			}
 			ZAC = {
 				primary_culture = mexican
 				add_accepted_culture = mexican_norteno

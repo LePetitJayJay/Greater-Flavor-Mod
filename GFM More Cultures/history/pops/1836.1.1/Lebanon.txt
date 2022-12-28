@@ -463,8 +463,14 @@
 
     farmers = {
         culture = mashriqi
+        religion = alawite
+        size = 350
+    }
+
+    farmers = {
+        culture = mashriqi
         religion = shiite
-        size = 391
+        size = 41
     }
 	
 	farmers = {
