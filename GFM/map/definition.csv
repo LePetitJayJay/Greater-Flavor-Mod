@@ -1,7 +1,7 @@
 ;red;green;blue;x;x
 1;204;229;152;Sitka;x
 2;204;179;153;Yakutat;x
-3;153;230;153;Kenai;x
+3;153;230;153;Anchorage;x
 4;192;0;0;Dutch Harbor;x
 5;192;0;128;Unalakleet;x
 6;153;179;153;Whitehorse;x
@@ -3680,6 +3680,18 @@
 3679;223;221;176;Nosy Be;x
 3680;97;255;94;Portoviejo;x
 3681;255;229;84;Tignes;x
+3682;119;177;101;Crozet Islands;x
+3683;186;70;116;Heard & McDonald Islands;x
+3684;200;174;129;Gough Island;x
+3685;135;26;135;Lord Howe Island;x
+3686;23;27;40;Juan Fernandez Islands;x
+3687;12;29;74;Wichita;x
+3688;67;60;80;Koochiching;x
+3689;248;164;54;Accomack;x
+3690;204;90;141;Skagway;x
+3691;110;38;38;Ahtna;x
+3692;72;143;72;Kenai;x
+3693;169;155;113;Nome;x
 ;111;17;245;Lake of the Woods;x
 ;111;17;246;Lake Nipissing;x
 ;111;17;247;Lake Simcoe;x
