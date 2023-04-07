@@ -82,7 +82,7 @@ USA_170 = { 169 170 172 171 } #Indiana
 
 USA_176 = { 173 174 175 176 177 } #Michigan
 
-USA_218 = { 218 217 3656 } #West Virginia
+USA_218 = { 218 217 3656 3694 } #West Virginia
 
 USA_185 = { 184 185 186 187 } #Kentucky
 

@@ -5204,7 +5204,7 @@
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 1230
+        size = 830
     }
 
     farmers = {
@@ -5261,10 +5261,10 @@
     farmers = {
         culture = kiowa
         religion = animist
-        size = 1200
+        size = 800
     }
 }
-#Wichita (8000/2000 POPS)
+#Houghton (8000/2000 POPS)
 128 = {
     aristocrats = {
         culture = native_american_minor
@@ -5302,6 +5302,45 @@
         size = 200
     }
 }
+
+#Wichita
+3687 = {
+    aristocrats = {
+        culture = native_american_minor
+        religion = wichita
+        size = 10
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = wichita
+        size = 20
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = wichita
+        size = 30
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = wichita
+        size = 10
+    }
+
+    farmers = {
+        culture = native_american_minor
+        religion = wichita
+        size = 620
+    }
+	farmers = {
+		culture = kiowa
+		religion = animist
+		size = 100
+	}
+}
+
 #Oklahoma Region (32000)
 #"ruled" by the USA/de facto under Native Control
 #Oklahoma City (12000/3000 POPS)
@@ -7710,7 +7749,7 @@
     farmers = {
         culture = dakota
         religion = animist
-        size = 900
+        size = 800
     }
 
     soldiers = {
@@ -7722,7 +7761,7 @@
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 900
+        size = 700
     }
 }
 #Duluth (8000/2000 POPS)
@@ -7763,6 +7802,52 @@
         size = 963
     }
 }
+#Koochiching
+3688 = {
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 300
+	}
+	farmers = {
+		culture = dakota
+		religion = animist
+		size = 20
+	}
+	farmers = {
+		culture = metis
+		religion = catholic
+		size = 30
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 20
+	}
+	clergymen = {
+        culture = yankee
+        religion = protestant
+        size = 5
+    }
+	clergymen = {
+        culture = metis
+        religion = catholic
+        size = 5
+    }
+
+    artisans = {
+        culture = yankee
+        religion = protestant
+        size = 5
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = protestant
+        size = 5
+    }
+}
+
 #Wisconsin Region (36000)
 #ruled by the USA/parts under de facto under Native Control
 #Milwaukee (16000/4000 POPS)
@@ -12588,82 +12673,201 @@
         size = 3982
     }
 }
+
+#Accomack (25297/6325 POPS)
+3689 = {
+	officers = {
+		culture = dixie
+		religion = protestant
+		size = 28
+	}
+	aristocrats = {
+		culture = dixie
+		religion = protestant
+		size = 50
+	}
+	clergymen = {
+		culture = dixie
+		religion = protestant
+		size = 50
+	}
+	clergymen = {
+		culture = afro_american
+		religion = protestant
+		size = 20
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 30
+	}
+	artisans = {
+		culture = dixie
+		religion = protestant	
+		size = 200
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	farmers = {
+		culture = dixie
+		religion = protestant
+		size = 2800
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 1200
+	}
+	farmers = {
+		culture = afro_american
+		religion = protestant
+		size = 50
+	}
+	slaves = {
+		culture = afro_american
+		religion = protestant
+		size = 2097
+	}
+}
+
 #became West Virginia in 1863
-#Green Bank (104000/26000 POPS)
+#Green Bank (22272/5568 POPS)
 217 = {
-
-    aristocrats = {
-        culture = dixie
-        religion = protestant
-        size = 176
-    }
-
-    clergymen = {
-        culture = dixie
-        religion = protestant
-        size = 66
-    }
-
-    artisans = {
-        culture = dixie
-        religion = protestant
-        size = 480
-    }
-
-    soldiers = {
-        culture = dixie
-        religion = protestant
-        size = 559
-    }
-
-    farmers = {
-        culture = dixie
-        religion = protestant
-        size = 9100
-    }
-
-    aristocrats = {
-        culture = dixie
-        religion = catholic
-        size = 44
-    }
-
-    clergymen = {
-        culture = dixie
-        religion = catholic
-        size = 66
-    }
-
-    artisans = {
-        culture = dixie
-        religion = catholic
-        size = 176
-    }
-
-    farmers = {
-        culture = dixie
-        religion = catholic
-        size = 3190
-    }
-
-    farmers = {
-        culture = yankee
-        religion = protestant
-        size = 10120
-    }
-
-    farmers = {
-        culture = afro_american
-        religion = protestant
-        size = 220
-    }
-
+	aristocrats = {
+		culture = dixie
+		religion = protestant
+		size = 40
+	}
+	clergymen = {
+		culture = dixie
+		religion = protestant
+		size = 60
+	}
+	artisans = {
+		culture = dixie
+		religion = protestant
+		size = 150
+	}
+	farmers = {
+		culture = dixie
+		religion = protestant
+		size = 3400
+	}
+	soldiers = {
+		culture = dixie
+		religion = protestant
+		size = 290
+	}
+	officers = {
+		culture = dixie
+		religion = protestant
+		size = 10
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 700
+	}
+	clergymen = {
+		culture = afro_american
+		religion = protestant
+		size = 50
+	}
+	farmers = {
+		culture = afro_american
+		religion = protestant
+		size = 150
+	}
+	farmers = {
+		culture = melungeon
+		religion = protestant
+		size = 50
+	}
+	
     slaves = {
         culture = afro_american
         religion = protestant
-        size = 3080
+        size = 568
     }
 }
+
+#Harpers Ferry (56164/14041 POPS)
+3694 = {
+	aristocrats = {
+		culture = dixie
+		religion = protestant
+		size = 50
+	}
+	clergymen = {
+		culture = dixie
+		religion = protestant
+		size = 100
+	}
+	artisans = {
+		culture = dixie
+		religion = protestant
+		size = 600
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = dixie
+		religion = protestant
+		size = 4900
+	}
+	farmers = {
+		culture = afro_american
+		religion = protestant
+		size = 390
+	}
+	farmers = {
+		culture = melungeon
+		religion = protestant
+		size = 10
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 3300
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 100
+	}
+	soldiers = {
+		culture = dixie
+		religion = protestant
+		size = 1700
+	}
+	officers = {
+		culture = dixie
+		religion = protestant
+		size = 30
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 10
+	}
+	slaves = {
+		culture = afro_american
+		religion = protestant
+		size = 2302
+	}
+}
+
 #Wheeling (100000/25000 POPS)
 218 = {
     aristocrats = {
@@ -12693,7 +12897,7 @@
     farmers = {
         culture = dixie
         religion = protestant
-        size = 4106
+        size = 5106
     }
 
     aristocrats = {
@@ -12767,7 +12971,7 @@
     farmers = {
         culture = dixie
         religion = protestant
-        size = 1799
+        size = 2299
     }
 
     aristocrats = {
@@ -12797,7 +13001,7 @@
     farmers = {
         culture = yankee
         religion = protestant
-        size = 1398
+        size = 2398
     }
 
     farmers = {

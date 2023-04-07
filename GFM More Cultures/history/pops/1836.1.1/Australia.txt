@@ -1996,3 +1996,17 @@
     }
 
 }
+
+#Lord Howe Island
+3685 = {
+	farmers = {
+		culture = norfuk
+		religion = protestant
+		size = 10
+	}
+	farmers = {
+		culture = maori
+		religion = protestant
+		size = 2
+	}
+}

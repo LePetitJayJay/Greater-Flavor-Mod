@@ -1044,3 +1044,22 @@
     }
 
 }
+
+#Juan Fernandez Islands
+3686 = {
+	farmers = {
+		culture = south_andean
+		religion = catholic
+		size = 100
+	}
+	soldiers = {
+		culture = south_andean
+		religion = catholic
+		size = 20
+	}
+	officers = {
+		culture = south_andean
+		religion = catholic
+		size = 5
+	}
+}

@@ -9773,8 +9773,8 @@
 # Wheeling
 217 = {
     text_position = {
-        x = 1558.458333
-        y = 1602.541667
+        x = 1552.300000
+        y = 1594.583333
     }
 
     text_rotation = 0.810128
@@ -9801,8 +9801,8 @@
 
     building_position = {
         fort = {
-            x = 1562.453333
-            y = 1608.573333
+            x = 1558.930000
+            y = 1598.380000
         }
 
         railroad = {
@@ -143834,6 +143834,58 @@
         naval_base = {
             x = 256.046667
             y = 2152.946667
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 4.206261
+    }
+
+}
+
+3694 = {
+    text_position = {
+        x = 1575.651667
+        y = 1614.773333
+    }
+
+    text_rotation = 0.283794
+    text_scale = 2
+    unit = {
+        x = 1576.375000
+        y = 1613.688333
+    }
+
+    city = {
+        x = 1589.911667
+        y = 1614.670000
+    }
+
+    factory = {
+        x = 1567.695000
+        y = 1605.835000
+    }
+
+    building_construction = {
+        x = 1575.651667
+        y = 1611.725000
+    }
+
+    military_construction = {
+        x = 1584.951667
+        y = 1619.888333
+    }
+
+    building_position = {
+        fort = {
+            x = 1590.066667
+            y = 1612.500000
+        }
+
+        railroad = {
+            x = 1587.845000
+            y = 1617.770000
         }
 
     }
