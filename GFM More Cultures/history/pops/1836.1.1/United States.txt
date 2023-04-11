@@ -128,7 +128,7 @@
 	farmers = {
 		culture = eyak
 		religion = animist
-		size = 5
+		size = 20
 	}
 }
 #Juneau
@@ -176,12 +176,12 @@
 	farmers = {
 		culture = haida
 		religion = animist
-		size = 25
+		size = 50
 	}
 	farmers = {
         culture = tsimshian
         religion = animist
-        size = 60
+        size = 100
     }
 }
 #Kenai/Kasilof (2400/600 POPS)
@@ -238,7 +238,7 @@
 	}
 	
 	farmers = {
-		culture = upper_kuwoskim
+		culture = upper_kuskokwim
 		religion = animist
 		size = 10
 	}
@@ -290,12 +290,12 @@
 		size = 100
 	}
     farmers = {
-        culture = alutiiq
+        culture = chugach
         religion = animist
         size = 370
     }
 	farmers = {
-		culture = alutiiq
+		culture = chugach
 		religion = orthodox
 		size = 20
 	}
@@ -364,6 +364,11 @@
 		culture = alutiiq
 		religion = animist
 		size = 2550
+	}
+	farmers = {
+		culture = chugach
+		religion = animist
+		size = 30
 	}
 	soldiers = {
 		culture = cossack
@@ -448,7 +453,7 @@
 		size = 10
 	}
 	farmers = {
-		culture = upper_kuwoskim
+		culture = upper_kuskokwim
 		religion = animist
 		size = 50
 	}
@@ -507,9 +512,14 @@
 		size = 10
 	}
 	farmers = {
-		culture = upper_kuwoskim
+		culture = upper_kuskokwim
 		religion = animist
 		size = 10
+	}
+	farmers = {
+		culture = han_alaskan
+		religion = animist
+		size = 20
 	}
 }
 #Unalakeet (3000/750 POPS)
@@ -629,6 +639,11 @@
 	}
 	farmers = {
 		culture = alutiiq
+		religion = orthodox
+		size = 20
+	}
+	farmers = {
+		culture = chugach
 		religion = orthodox
 		size = 130
 	}

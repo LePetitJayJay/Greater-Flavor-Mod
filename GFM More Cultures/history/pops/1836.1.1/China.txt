@@ -7346,11 +7346,7 @@
         religion = taiping
         size = 6500
     }
-}
-
-#Old Shanghai
-3297 = {
-    aristocrats = {
+	    aristocrats = {
         culture = han_chinese
         religion = confucian
         size = 750
@@ -7404,6 +7400,7 @@
         size = 750
     }
 }
+
 #Suzhou (4968000/1242000 POPS)
 1539 = {
     aristocrats = {

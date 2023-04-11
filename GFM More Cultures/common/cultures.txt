@@ -239,6 +239,11 @@ jewish_cultures = {
         Sassoon Sebag
         }
     }
+	bukharim = {
+       color = { 66 133 150 }
+       first_names = { Abiatar Ahijah Akabon Alon Amit Amram Ananelus Ananias Aretas Aristobulus Azrikam Barak Baruch Belshazar Costobarus Deror Dori Eiran Eleazar Erotimus Ezra Hadasa Herod Hyrkanus Jannaeus Joazar Yosef Josiada Kahana Hillel Hodaviah Honio Meir Nahum Nathan Nehemiah Nikanor Nir Obadiah Ofer Omri Pinchas Phannias Phasael Raanan Malichus Manasseh Nogah Shamgar Shammai Shaul Shemaiah Shemida Silas Simeon Sosa Talmon Tarfon Tovia Yair Yochanan Zadok Chaim Abba Abbaye Acha Achai Achunai Aharon Alechsandri Ammi Amunah Ashi Asher Avomai Avraham Azariah Baboi Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Eldad Eliezer Elyakim Gedalyah Gershom Ghayyat Giat Giza Hila Isaac Ivomai Kafnai Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Menechem Menashe Mesharsheya Meshulam Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah Yisrael Yitzchak Yoel Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind }
+       last_names = { "ben Shushan" "ben Zafrani" "ben Hillel" "ben Nogah" "ben Isaiah" "Shofet" "ben Daniel" "ben Mordechai" "al-Yahud" "ben Shmuel" "al-Dhimmi" "Shalom" }
+    }
     mizrahi = {
         color = { 66 66 66 }
        first_names = { Abiatar Ahijah Akabon Alon Amit Amram Ananelus Ananias Aretas Aristobulus Azrikam Barak Baruch Belshazar Costobarus Deror Dori Eiran Eleazar Erotimus Ezra Hadasa Herod Hyrkanus Jannaeus Joazar Yosef Josiada Kahana Hillel Hodaviah Honio Meir Nahum Nathan Nehemiah Nikanor Nir Obadiah Ofer Omri Pinchas Phannias Phasael Raanan Malichus Manasseh Nogah Shamgar Shammai Shaul Shemaiah Shemida Silas Simeon Sosa Talmon Tarfon Tovia Yair Yochanan Zadok Chaim Abba Abbaye Acha Achai Achunai Aharon Alechsandri Ammi Amunah Ashi Asher Avomai Avraham Azariah Baboi Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Eldad Eliezer Elyakim Gedalyah Gershom Ghayyat Giat Giza Hila Isaac Ivomai Kafnai Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Menechem Menashe Mesharsheya Meshulam Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah Yisrael Yitzchak Yoel Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind }
@@ -4918,7 +4923,6 @@ central_asian = {
                Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
         }
     }
-
     ket = {
         color = { 124 81 128 }
         first_names = {
@@ -4928,7 +4932,24 @@ central_asian = {
                Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
         }
     }
-
+	kott = {
+        color = { 179 79 188 }
+        first_names = {
+               Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory
+        }
+        last_names = {
+               Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
+        }
+    }
+    yugh = {
+        color = { 116 48 122 }
+        first_names = {
+               Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory
+        }
+        last_names = {
+               Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
+        }
+    }
     nanai = {
         color = { 160 160 223 }
         first_names = {
@@ -8769,8 +8790,143 @@ native_american = {
         last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
         }
     }
-    alaska_athabaskan = {
-        color = { 170 203 202 }
+	#alaskan_native
+	
+	gwichin = {
+		color = { 54 95 97 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	han_alaskan = {
+		color = { 81 183 212 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	denaina = {
+		color = { 62 112 126 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	koyukon = {
+		color = { 80 146 158 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	upper_kuskokwim = {
+		color = { 75 102 107 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	holikachuk = {
+		color = { 117 188 201 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	deg_hitan = {
+		color = { 28 107 121 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	chugach = {
+		color = { 165 170 184 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	alutiiq = {
+		color = { 145 170 184 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	upper_tanana = {
+		color = { 46 170 206 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	tanana = {
+		color = { 98 166 148 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	tanacross = {
+		color = { 36 125 151 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	ahtna = {
+		color = { 75 156 180 }
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	tutchone = {
+        color = { 89 166 104 }
+        first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	tlingit = {
+        color = { 20 76 56 }
+        first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	inupiat = {
+        color = { 210 243 202 }
+        first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	naukan = {
+        color = { 48 60 120 }
+        first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	sirenik = {
+        color = { 148 204 209 }
+        first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+    eyak = {
+        color = { 210 103 142 }
+        first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+        }
+        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+        }
+    }
+	eyak = {
+        color = { 210 103 142 }
         first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
         }
         last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
@@ -8868,13 +9024,6 @@ native_american = {
         last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
         }
     }
-    tlingit = {
-        color = { 210 203 2 }
-        first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
-        }
-        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
-        }
-    }
     nisgaa = {
         color = { 110 163 202 }
         first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
@@ -8891,20 +9040,6 @@ native_american = {
     }
     halkomelem = {
         color = { 10 10 10 }
-        first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
-        }
-        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
-        }
-    }
-    inupiat = {
-        color = { 210 243 202 }
-        first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
-        }
-        last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
-        }
-    }
-    eyak = {
-        color = { 210 103 142 }
         first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
         }
         last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
