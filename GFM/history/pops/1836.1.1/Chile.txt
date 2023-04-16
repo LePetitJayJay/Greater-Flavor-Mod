@@ -882,7 +882,7 @@
     farmers = {
         culture = south_andean
         religion = catholic
-        size = 4800
+        size = 11800
     }
 
     aristocrats = {
@@ -912,47 +912,8 @@
     farmers = {
         culture = patagonian
         religion = animist
-        size = 2800
+        size = 3600
     }
-}
-
-#Chiloe, 7646 married (non-indigenous) men as of the 1835 census
-3686 = {
-	aristocrats = {
-		culture = south_andean
-		religion = catholic
-		size = 120
-	}
-	bureaucrats = {
-		culture = south_andean
-		religion = catholic
-		size = 26
-	}
-	artisans = {
-		culture = south_andean
-		religion = catholic
-		size = 500
-	}
-	clergymen = {
-		culture = south_andean
-		religion = catholic
-		size = 150
-	}
-	soldiers = {
-		culture = south_andean
-		religion = catholic
-		size = 750
-	}
-	farmers = {
-		culture = south_andean
-		religion = catholic
-		size = 6100
-	}
-	farmers = {
-		culture = patagonian
-		religion = catholic
-		size = 1820
-	}
 }
 #uncolonized/claimed by Chile 1836
 #Puerto Aisen (12000/3000 POPS)
@@ -1082,4 +1043,23 @@
         size = 900
     }
 
+}
+
+#Juan Fernandez Islands
+3686 = {
+	farmers = {
+		culture = south_andean
+		religion = catholic
+		size = 100
+	}
+	soldiers = {
+		culture = south_andean
+		religion = catholic
+		size = 20
+	}
+	officers = {
+		culture = south_andean
+		religion = catholic
+		size = 5
+	}
 }

@@ -3299,7 +3299,7 @@
 3294;127;0;110;Al-Muabbada;x
 3295;127;5;110;Pematang Sintar;x
 3296;101;16;232;Lubumbashi;x
-3297;40;164;216;Chardzhou;x
+3297;102;16;236;Old Shanghai;x
 3298;103;16;240;Ayteke Bi;x
 3299;104;16;244;Aksai Chin;x
 3300;172;208;222;Haleb;x
@@ -3683,8 +3683,8 @@
 3682;119;177;101;Crozet Islands;x
 3683;186;70;116;Heard & McDonald Islands;x
 3684;200;174;129;Gough Island;x
-3685;167;153;237;Rudolstadt;x
-3686;23;27;40;Chiloe;x
+3685;135;26;135;Lord Howe Island;x
+3686;23;27;40;Juan Fernandez Islands;x
 3687;12;29;74;Wichita;x
 3688;67;60;80;Koochiching;x
 3689;248;164;54;Accomack;x
@@ -3693,8 +3693,6 @@
 3692;72;143;72;Kenai;x
 3693;169;155;113;Nome;x
 3694;132;58;16;Harper's Ferry;x
-3695;76;143;184;Keriya;x
-3696;196;142;136;Chuguchak;x
 ;111;17;245;Lake of the Woods;x
 ;111;17;246;Lake Nipissing;x
 ;111;17;247;Lake Simcoe;x

@@ -413,7 +413,7 @@
 }
 
 #under the rule of Bukhara in 1836
-#Hojambaz (132000/33000 POPS)
+#Chardzhou (132000/33000 POPS)
 1206 = {
 	aristocrats = {
 		culture = uzbek
@@ -554,21 +554,6 @@
 		culture = baluchi
 		religion = sunni
 		size = 425
-	}
-	farmers = {
-		culture = kazakh
-		region = sunni
-		size = 220
-	}
-	artisans = {
-		culture = mizrahi
-		region = jewish
-		size = 50
-	}
-	clergymen = {
-		culture = mizrahi
-		region = jewish
-		size = 10
 	}
 }
 
@@ -761,41 +746,3 @@
 	}
 }
 
-#Chardzhou
-3297 = {
-	aristocrats = {
-		culture = turkmen
-		region = sunni
-		size = 100
-	}
-	clergymen = {
-		culture = turkmen
-		region = sunni
-		size = 80
-	}
-	clergymen = {
-		culture = persian
-		region = shiite
-		size = 20
-	}
-	aristocrats = {
-		culture = uzbek
-		region = sunni
-		size = 20
-	}
-	farmers = {
-		culture = persian
-		region = shiite
-		size = 300
-	}
-	farmers = {
-		culture = uzbek
-		region = sunni
-		size = 500
-	}
-	farmers = {
-		culture = turkmen
-		region = sunni
-		size = 1250
-	}
-}

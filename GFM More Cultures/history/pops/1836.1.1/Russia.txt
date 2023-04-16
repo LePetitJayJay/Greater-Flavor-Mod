@@ -10521,18 +10521,8 @@
 	farmers = {
         culture = yupik
         religion = animist
-        size = 80
+        size = 60
     }
-	farmers = {
-		culture = naukan
-		region = animist
-		size = 40
-	}
-	farmers = {
-		culture = sirenik
-		religion = animist
-		size = 60
-	}
 }
 
 #Pevek (600/150 POPS) #chukchi = chukchi  }
