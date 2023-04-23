@@ -7567,6 +7567,11 @@
         religion = tengri
         size = 300
     }
+	farmers = {
+		culture = tozhu
+		region = tengri
+		size = 50
+	}
 }
 #Kostino (2000/500 POPS)
 2692 = {
@@ -7599,6 +7604,12 @@
         religion = tengri
         size = 450
     }
+	
+	farmers = {
+		culture = yugh
+		region = tengri
+		size = 25
+	}
 
 	farmers = {
         culture = nenets
@@ -7895,6 +7906,11 @@
         religion = tengri
         size = 200
     }
+	farmers = {
+		culture = ket
+		region = tengri
+		size = 50
+	}
 }
 
 #Tomsk Region (1346700)
@@ -8932,6 +8948,11 @@
         religion = orthodox
         size = 45
     }
+	farmers = {
+		culture = nganasan
+		region = tengri
+		size = 50
+	}
 }
 #Kheta (1000/250 POPS)
 2658 = {
@@ -9014,6 +9035,11 @@
         religion = tengri
         size = 225
     }
+	farmers = {
+		culture = nganasan
+		region = tengri
+		size = 50
+	}
 }
 #Essey (1000/250 POPS) => Abakan/Khakas
 2674 = {
@@ -9788,6 +9814,10 @@
         religion = tengri
         size = 215
     }
+	farmers = {
+		culture = chuvan
+		region = tengri
+		size = 30
 }
 
 #Beryezovka (1000/250 POPS)
@@ -10208,7 +10238,7 @@
     farmers = {
         culture = itelmen
         religion = tengri
-        size = 100
+        size = 700
     }
 
     bureaucrats = {
@@ -10246,6 +10276,12 @@
         religion = orthodox
         size = 530
     }
+	
+	farmers = {
+		culture = ainu
+		region = animist
+		size = 75
+	}
 }
 3676 = {
     clergymen = {
@@ -10521,8 +10557,18 @@
 	farmers = {
         culture = yupik
         religion = animist
-        size = 60
+        size = 80
     }
+	farmers = {
+		culture = naukan
+		region = animist
+		size = 40
+	}
+	farmers = {
+		culture = sirenik
+		religion = animist
+		size = 60
+	}
 }
 
 #Pevek (600/150 POPS) #chukchi = chukchi  }
@@ -10560,7 +10606,7 @@
     farmers = {
         culture = chuvan
         religion = tengri
-        size = 45
+        size = 175
     }
 }
 #Nizhnekolymsk (600/150 POPS)
@@ -10793,6 +10839,16 @@
         religion = tengri
         size = 450
     }
+	farmers = {
+		culture = yugh
+		region = tengri
+		size = 300
+	}
+	farmers = {
+		culture = ket
+		region = tengri
+		size = 75
+	}
 }
 #Surinda (1000/250 POPS) => Kansk
 2701 = {
@@ -10849,6 +10905,16 @@
         religion = tengri
         size = 400
     }
+	farmers = {
+		culture = kott
+		religion = tengri
+		size = 100
+	}
+	farmers = {
+		culture = assan
+		region = tengri
+		size = 30
+	}
 }
 #Bratsk (2000/500 POPS) => Nizhneudinsk
 1076 = {
@@ -10930,6 +10996,26 @@
         religion = tengri
         size = 75
     }
+	farmers = {
+		culture = chulym
+		region = tengri
+		size = 100
+	}
+	farmers = {
+		culture = kott
+		region = tengri
+		size = 40
+	}
+	farmers = {
+		culture = tozhu
+		region = tengri
+		size = 50
+	}
+	farmers = {
+		culture = tofalar
+		region = tengri
+		size = 450
+	}
 }
 #Irkutsk Region (292000)
 #under the rule of Russia in 1836
@@ -11048,7 +11134,7 @@
 
     farmers = {
         culture = tofalar
-        religion = gelugpa
+        religion = tengri
         size = 500
     }
 

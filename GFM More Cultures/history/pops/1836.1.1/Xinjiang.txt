@@ -785,7 +785,7 @@
     }
 
 }
-3321 = {
+3696 = {
     aristocrats = {
         culture = uighur
         religion = sunni

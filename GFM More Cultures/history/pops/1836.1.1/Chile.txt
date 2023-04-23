@@ -852,6 +852,7 @@
         size = 1800
     }
 }
+
 #Magellanes Region (92000)
 #Ruled by Chile 1836
 #Osorno (68000/17000 POPS)
@@ -883,8 +884,14 @@
     artisans = {
         culture = south_andean
         religion = catholic
-        size = 650
+        size = 350
     }
+	
+	artisans = {
+		culture = chilote
+		religion = catholic
+		size = 300
+	}
 
     soldiers = {
         culture = south_andean
@@ -895,8 +902,13 @@
     farmers = {
         culture = south_andean
         religion = catholic
-        size = 11800
+        size = 1800
     }
+	farmers = {
+		culture = chilote
+		religion = catholic
+		size = 3000
+	}
 
     aristocrats = {
         culture = payniken
@@ -931,7 +943,7 @@
 	farmers = {
         culture = cunco
         religion = animist
-        size = 2500
+        size = 2000
     }
 
 	farmers = {
@@ -939,6 +951,90 @@
         religion = animist
         size = 500
     }
+}
+
+#Chiloe, 7646 married (non-indigenous) men as of the 1835 census
+3686 = {
+	aristocrats = {
+		culture = south_andean
+		religion = catholic
+		size = 100
+	}
+	aristocrats = {
+		culture = chilote
+		religion = catholic
+		size = 20
+	}
+	bureaucrats = {
+		culture = south_andean
+		religion = catholic
+		size = 26
+	}
+	artisans = {
+		culture = south_andean
+		religion = catholic
+		size = 100
+	}
+	artisans = {
+		culture = chilote
+		religion = catholic
+		size = 400
+	}
+	clergymen = {
+		culture = south_andean
+		religion = catholic
+		size = 50
+	}
+	clergymen = {
+		culture = chilote
+		religion = catholic
+		size = 100
+	}
+	soldiers = {
+		culture = south_andean
+		religion = catholic
+		size = 100
+	}
+	soldiers = {
+		culture = chilote
+		religion = catholic
+		size = 650
+	}
+	farmers = {
+		culture = south_andean
+		religion = catholic
+		size = 1100
+	}
+	farmers = {
+		culture = chilote
+		religion = catholic
+		size = 5000
+	}
+	farmers = {
+		culture = chono
+		religion = catholic
+		size = 1020
+	}
+	farmers = {
+		culture = cunco
+		religion = catholic
+		size = 500
+	}
+	farmers = {
+		culture = huilliche
+		religion = catholic
+		size = 30
+	}
+	farmers = {
+		culture = poya
+		religion = catholic
+		size = 120
+	}
+	farmers = {
+		culture = payniken
+		religion = catholic
+		size = 30
+	}
 }
 #uncolonized/claimed by Chile 1836
 #Puerto Aisen (12000/3000 POPS)
@@ -959,6 +1055,11 @@
         religion = animist
         size = 420
     }
+	farmers = {
+		culture = chilote
+		religion = catholic
+		size = 50
+	}
 }
 3559 = {
     farmers = {
@@ -1011,23 +1112,4 @@
         religion = animist
         size = 320
     }
-}
-
-#Juan Fernandez Islands
-3686 = {
-	farmers = {
-		culture = south_andean
-		religion = catholic
-		size = 100
-	}
-	soldiers = {
-		culture = south_andean
-		religion = catholic
-		size = 20
-	}
-	officers = {
-		culture = south_andean
-		religion = catholic
-		size = 5
-	}
 }

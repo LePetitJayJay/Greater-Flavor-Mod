@@ -337,7 +337,7 @@
     farmers = {
         culture = dukha
         religion = gelugpa
-        size = 100
+        size = 400
     }
 }
 #Khovd (120000/30000 POPS)
@@ -467,5 +467,10 @@
         religion = gelugpa
         size = 1000
     }
+	farmers = {
+		culture = tozhu
+		religion = gelugpa
+		size = 500
+	}
 
 }
