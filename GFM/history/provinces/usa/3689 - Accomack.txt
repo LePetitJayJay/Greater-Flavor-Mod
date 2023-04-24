@@ -4,7 +4,6 @@ add_core = USA
 
 trade_goods = fish
 life_rating = 30
-naval_base = 2
 party_loyalty = {
     ideology = conservative
     loyalty_value = 12

@@ -24257,6 +24257,7 @@ country_event = {
     option = {
         name = "Glory to the French Empire!"
         3414 = { secede_province = THIS trade_goods = coal }
+		3682 = { secede_province = THIS }
 		3414 = { change_province_name = "Port-Christmas" }
     }
 }
