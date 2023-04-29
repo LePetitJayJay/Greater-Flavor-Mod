@@ -6875,7 +6875,7 @@
 }
 
 #Rudolstadt, 14500 adult men in 1835 
-3685 = {
+3297 = {
 	artisans = {
 		culture = north_german
 		religion = protestant

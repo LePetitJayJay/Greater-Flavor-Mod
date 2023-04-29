@@ -6470,12 +6470,12 @@
 }
 
 #under the rule of Schwarzburg 1836
-#Schwarzburg (208000/52000 POPS)
+#Sonderhausen (208000/32000 POPS)
 3256 = {
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 510
+        size = 210
     }
 
     bureaucrats = {
@@ -6493,13 +6493,13 @@
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 500
+        size = 400
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 1600
+        size = 600
     }
 
     soldiers = {
@@ -6512,8 +6512,67 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 17350
+        size = 10000
     }
+	farmers = {
+		culture = gypsy
+		religion = protestant
+		size = 100
+	}
+}
+
+#Rudolstadt, 14500 adult men in 1835 
+3297 = {
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 2300
+	}
+	capitalists = {
+		culture = north_german
+		religion = protestant
+		size = 20
+	}
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 200
+	}
+	officers = {
+		culture = north_german
+		religion = protestant
+		size = 40
+	}
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 160
+	}
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 120
+	}
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 1200
+	}
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 10400
+	}
+	farmers = {
+		culture = gypsy
+		religion = protestant
+		size = 75
+	}
 }
 
 #under the rule of Waldeck 1836
