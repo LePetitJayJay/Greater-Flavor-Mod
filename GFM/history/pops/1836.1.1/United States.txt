@@ -6807,7 +6807,7 @@
     farmers = {
         culture = dakota
         religion = animist
-        size = 1892
+        size = 1092
     }
 }
 #Moorhead (8000/2000 POPS)
@@ -6950,7 +6950,62 @@
         size = 5
     }
 }
+#St Cloud (8000/2000 POPS)
+3696 = {
 
+    aristocrats = {
+        culture = yankee
+        religion = protestant
+        size = 5
+    }
+
+    officers = {
+        culture = yankee
+        religion = protestant
+        size = 5
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = protestant
+        size = 5
+    }
+
+    artisans = {
+        culture = yankee
+        religion = protestant
+        size = 5
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = protestant
+        size = 20
+    }
+
+    farmers = {
+        culture = yankee
+        religion = protestant
+        size = 30
+    }
+
+    soldiers = {
+        culture = dakota
+        religion = animist
+        size = 108
+    }
+
+    farmers = {
+        culture = dakota
+        religion = animist
+        size = 892
+    }
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 500
+	}
+}
 #Wisconsin Region (36000)
 #ruled by the USA/parts under de facto under Native Control
 #Milwaukee (16000/4000 POPS)
