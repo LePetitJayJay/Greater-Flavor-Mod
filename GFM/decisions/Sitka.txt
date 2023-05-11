@@ -1807,14 +1807,10 @@ political_decisions = {
 			is_vassal = no
 			owns = 749
 			NOT = { government = proletarian_dictatorship }
-			NOT = { government = democracy }
 			LBY = { exists = no }
-		}
-
-		allow = {
+			CYR = { exists = no }
+			TRI = { exists = no }
 			TUR = {
-				NOT = { truce_with = THIS }
-				is_greater_power = no
 				any_owned_province = {
 					port = yes
 					OR = {
@@ -1824,19 +1820,42 @@ political_decisions = {
 					}
 				}
 			}
+			OR = {
+				ai = no
+				year = 1911
+			}
+		}
+
+		allow = {
+			TUR = {
+				NOT = { in_sphere = THIS }
+				NOT = { truce_with = THIS }
+				NOT = { alliance_with = THIS }
+				is_greater_power = no
+				is_vassal = no
+			}
 			invention = the_dark_continent
+			has_global_flag = berlin_congress_held
 			OR = {
 				war_policy = jingoism
 				war_policy = pro_military
 			}
+			war = no
+			is_greater_power = yes
+			is_disarmed = no
+			NOT = { government = proletarian_dictatorship }
+			NOT = { has_country_modifier = no_more_war }
 			OR = {
 				has_global_flag = ottomans_supported
 				TUR = { has_country_flag = lost_russo_turkish_war }
+				AND = {
+					NOT = { TUR = { owns = 809 } }
+					NOT = { TUR = { owns = 3346 } }
+					NOT = { TUR = { owns = 783 } }
+					NOT = { TUR = { owns = 832 } }
+					NOT = { TUR = { owns = 817 } }
+				}
 			}
-			war = no
-			is_greater_power = yes
-			NOT = { government = proletarian_dictatorship }
-			NOT = { government = democracy }
 		}
 
 		effect = {
@@ -3003,26 +3022,26 @@ political_decisions = {
         }
         allow = {
             war = no
-            prestige = 10
+            prestige = 20
             is_vassal = no
-            owns = 3379
+			is_disarmed = no
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			}
+			war_policy = jingoism
+			owns = 397
         }
         effect = {
-            badboy = 5
+            badboy = 3
             prestige = 15
             set_country_flag = Greater_LUX
             398 = {
-            add_core = LUX
+				add_core = LUX
             }
-            395 = {
-            add_core = LUX
-            }
-            405 = {
-            add_core = LUX
-            }
-            396 = {
-            add_core = LUX
-            }
+			3379 = {
+				add_core = LUX
+			}
         }
         ai_will_do = {
             factor = 1
@@ -3618,6 +3637,7 @@ political_decisions = {
     }
 
     Claim_OMA = {
+		picture = trucial_oman
         potential = {
             tag = OMA
             NOT = { has_country_flag = OMA_claimed }
@@ -3627,15 +3647,24 @@ political_decisions = {
             war = no
             prestige = 10
             is_vassal = no
-            owns = 1166
+			is_disarmed = no
+            all_core = { owned_by = THIS }
             war_policy = jingoism
         }
         effect = {
-            badboy = 1
-            prestige = 5
+            badboy = 5
             set_country_flag = OMA_claimed
             1168 = {
-            add_core = OMA
+				add_core = OMA
+            }
+			3515 = {
+				add_core = OMA
+            }
+			12 = {
+				add_core = OMA
+            }
+			1167 = {
+				add_core = OMA
             }
         }
         ai_will_do = {
@@ -4211,6 +4240,7 @@ political_decisions = {
             OR = {
 				tag = AST
 				tag = NZL
+				has_country_flag = i_am_ahu
             }
             NOT = { has_country_flag = Oceania_claimed }
 			OR = {
@@ -4879,10 +4909,7 @@ political_decisions = {
             1104 = {
                 add_core = GEO
             }
-            3390 = {
-                add_core = GEO
-            }
-            3389 = {
+            3391 = {
                 add_core = GEO
             }
             885 = {
@@ -4966,6 +4993,36 @@ political_decisions = {
             3388 = {
                 add_core = GEO
             }
+			1107 = {
+				add_core = GEO
+			}
+			3503 = {
+				add_core = GEO
+			}
+			3504 = {
+				add_core = GEO
+			}
+			3315 = {
+				add_core = GEO
+			}
+			1055 = {
+				add_core = GEO
+			}
+			1054 = {
+				add_core = GEO
+			}
+			3535 = {
+				add_core = GEO
+			}
+			3537 = {
+				add_core = GEO
+			}
+			3536 = {
+				add_core = GEO
+			}
+			3348 = {
+				add_core = GEO
+			}
         }
         ai_will_do = {
             factor = 1
@@ -5098,10 +5155,14 @@ political_decisions = {
 
         potential = {
             primary_culture = polish
-            NOT = { exists = POL has_country_flag = i_am_phc has_country_flag = i_am_wsf }
-            NOT = { has_country_flag = post_colonial_country }
-            NOT = { tag = PLC }
-            NOT = { tag = PLR }
+            NOT = {
+				tag = PLC
+				tag = PLR
+				exists = POL
+				has_country_flag = i_am_phc
+				has_country_flag = i_am_wsf
+				has_country_flag = post_colonial_country
+			}
             has_global_flag = sw_set
 			OR = {
 				AND = {

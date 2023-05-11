@@ -11232,7 +11232,7 @@
     bureaucrats = {
         culture = dixie
         religion = protestant
-        size = 25
+        size = 50
     }
 
     officers = {
@@ -11250,7 +11250,7 @@
     artisans = {
         culture = dixie
         religion = protestant
-        size = 175
+        size = 150
     }
 
     soldiers = {
@@ -11418,17 +11418,10 @@
         size = 1800
     }
 
-
     clergymen = {
         culture = dixie
         religion = protestant
         size = 100
-    }
-
-    bureaucrats = {
-        culture = dixie
-        religion = protestant
-        size = 10
     }
 
     artisans = {
@@ -11440,7 +11433,7 @@
     soldiers = {
         culture = dixie
         religion = protestant
-        size = 100
+        size = 110
     }
 
     farmers = {
