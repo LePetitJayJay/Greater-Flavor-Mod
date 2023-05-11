@@ -1369,7 +1369,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-            factor = 1
+            factor = 0
         }
     }
 
@@ -1378,7 +1378,7 @@ country_event = {
         prestige = -5
 		set_country_flag = 1869_constitution_wrote
 		ai_chance = {
-            factor = 99
+            factor = 1
         }
     }
 
@@ -1464,6 +1464,7 @@ country_event = {
 
     option = {
         name = "Great!"
+		set_country_flag = 1869_constitution_wrote
 		prestige = 5
    		500 = {
 			add_province_modifier = { name = war_torn duration = 400 }

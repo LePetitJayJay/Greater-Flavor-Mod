@@ -376,7 +376,6 @@ political_decisions = {
 			war = no
 		}
 
-
         effect = {
 			set_country_flag = spa_1869_constitution
             political_reform = universal_weighted_voting
@@ -407,7 +406,6 @@ political_decisions = {
 			money = 30000
 			central_bank_money_bill_printing = 1
 		}
-
 
         effect = {
             set_country_flag = adopted_peseta
