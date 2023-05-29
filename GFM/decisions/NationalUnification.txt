@@ -1114,6 +1114,37 @@ political_decisions = {
             NOT = { has_global_flag = indochina_formed }
             NOT = { exists = IDC }
             is_culture_group = southeast_asian
+			NOT = {
+                tag = DJA
+                tag = KLM
+                tag = KTI
+                tag = MAL
+                tag = SLW
+                tag = SAK
+                tag = JAV
+                tag = BAL
+                tag = ATJ
+                tag = JOH
+				tag = SLG
+				tag = PRK
+				tag = PHG
+                tag = SWK
+                tag = BRU
+                tag = MLY
+                tag = RIA
+                tag = PTK
+                tag = SBS
+                tag = BGN
+                #tag = MTN
+                #tag = LUW
+                tag = BTN
+                tag = STG
+				tag = SUL
+				tag = INO
+				tag = MLY
+				tag = PHL
+				
+            }
         }
 
         allow = {
