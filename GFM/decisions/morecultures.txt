@@ -815,6 +815,7 @@ political_decisions = {
             3397 = { add_core = NAP remove_core = PAP }
             release_vassal = TUS
 			SIC = { all_core = { add_core = NAP remove_core = SIC } }
+			SYC = { all_core = { remove_core = NAP } }
             release_vassal = NAP
             release_vassal = SRD
 			SRD = { set_country_flag = colony_exemption }
@@ -1074,6 +1075,7 @@ political_decisions = {
 			TUS = { all_core = { add_core = PAP } }
 			746 = { add_core = PAP }
 			SIC = { all_core = { add_core = NAP remove_core = SIC } }
+			SYC = { all_core = { remove_core = NAP } }
             3398 = { remove_core = NAP }
             3397 = { remove_core = NAP }
             release_vassal = SAR
